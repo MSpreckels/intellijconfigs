@@ -1,0 +1,11 @@
+<templateSet group="user">
+  <template name="tsrcfull" value="import * as React from 'react';&#10;&#10;export interface I$ComponentName$Props {&#10;&#10;}&#10;&#10;export interface I$ComponentName$State {&#10;&#10;}&#10;&#10;export default class $ComponentName$ extends React.Component&lt;I$ComponentName$Props, I$ComponentName$State&gt; {&#10;  constructor(props: I$ComponentName$Props) {&#10;    super(props);&#10;&#10;    this.state={&#10;    }&#10;  }&#10;&#10;  public render() {&#10;    return (&#10;      &lt;div&gt;&#10;        $END$&#10;      &lt;/div&gt;&#10;    );&#10;  }&#10;}" description="adds a full typescript react template class" toReformat="true" toShortenFQNames="true">
+    <variable name="ComponentName" expression="" defaultValue="" alwaysStopAt="true" />
+    <context>
+      <option name="JS_STATEMENT" value="true" />
+      <option name="JS_TOP_LEVEL_STATEMENT" value="true" />
+      <option name="TS_STATEMENT" value="true" />
+      <option name="TS_TOP_LEVEL_STATEMENT" value="true" />
+    </context>
+  </template>
+</templateSet>
